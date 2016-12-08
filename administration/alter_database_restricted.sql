@@ -1,0 +1,9 @@
+--set restricted
+
+ALTER DATABASE <database name> SET RESTRICTED_USER WITH ROLLBACK IMMEDIATE
+
+
+
+--set multi user
+
+ALTER DATABASE <database name> SET MULTI_USER WITH ROLLBACK IMMEDIATE
